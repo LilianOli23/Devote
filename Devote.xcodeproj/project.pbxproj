@@ -16,6 +16,8 @@
 		BCB6C7272843FB1500139A01 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCB6C7242843FB1500139A01 /* sound-rise.mp3 */; };
 		BCB6C7282843FB1500139A01 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCB6C7252843FB1500139A01 /* sound-tap.mp3 */; };
 		BCB6C7292843FB1500139A01 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCB6C7262843FB1500139A01 /* sound-ding.mp3 */; };
+		BCB6C7362844054E00139A01 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB6C7352844054E00139A01 /* Constant.swift */; };
+		BCB6C7382844170900139A01 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB6C7372844170900139A01 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BCB6C7252843FB1500139A01 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		BCB6C7262843FB1500139A01 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		BCB6C7302843FBBC00139A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BCB6C7352844054E00139A01 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BCB6C7372844170900139A01 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 		BCB6C7102843FAC500139A01 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
-				BCB6C7302843FBBC00139A01 /* Info.plist */,
 				BCB6C7112843FAC500139A01 /* DevoteApp.swift */,
 				BCB6C72E2843FB4500139A01 /* View */,
 				BCB6C72D2843FB3F00139A01 /* Extension */,
@@ -71,6 +74,7 @@
 				BCB6C72A2843FB2400139A01 /* Sound */,
 				BCB6C72F2843FB4900139A01 /* Model */,
 				BCB6C7152843FAC600139A01 /* Assets.xcassets */,
+				BCB6C7302843FBBC00139A01 /* Info.plist */,
 				BCB6C7172843FAC600139A01 /* Preview Content */,
 			);
 			path = Devote;
@@ -97,6 +101,7 @@
 		BCB6C72B2843FB2C00139A01 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				BCB6C7352844054E00139A01 /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 		BCB6C72D2843FB3F00139A01 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BCB6C7372844170900139A01 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			files = (
 				BCB6C71B2843FAC600139A01 /* Persistence.swift in Sources */,
 				BCB6C7142843FAC500139A01 /* ContentView.swift in Sources */,
+				BCB6C7382844170900139A01 /* HideKeyboardExtension.swift in Sources */,
+				BCB6C7362844054E00139A01 /* Constant.swift in Sources */,
 				BCB6C71E2843FAC600139A01 /* Devote.xcdatamodeld in Sources */,
 				BCB6C7122843FAC500139A01 /* DevoteApp.swift in Sources */,
 			);
